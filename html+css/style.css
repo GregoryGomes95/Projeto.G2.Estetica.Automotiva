@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cetralizado{
+    margin: auto;
+}
+
+header{
+    text-align: center;
+}
+
+header li{
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 50px;
+        
+}
+
+header li:last-child{
+    margin-right: 30px;
+}
+
+header a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main{
+    margin-top: 10px;
+}
+
+article{
+    width: 95%;
+    margin-top: 50px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 160%;
+    margin-bottom: 1em;
+}
+
+article img{
+    width: 500px; /*tipo o tamanho da imaem*/
+    float: right; /*para a imagem "flutuar" a direita*/
+    margin: 0 0 2.5em 2em;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.39);
+    margin-top: 50px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 30px;   
+    color: blue;
+    margin: 20px;
+}
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 100px;       
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 30px;   
+    color: blue;
+    margin: 20px;   
+}
+
+hr{
+    width: 85%; /*largura*/
+    margin: 4em auto; /*auto para centralizar*/
+    border: 1.5px solid rgba(5, 84, 196, 0.25); /*usa rgba para dar opacidade*/
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, .16);
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 160%;
+    margin-bottom: 1em;
+}
+
+footer li{
+    text-align: center;
+    font-size: 20px;
+}
